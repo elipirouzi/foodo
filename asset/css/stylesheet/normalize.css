@@ -1,0 +1,25 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+main, header, section, aside, article, div, figure, footer, nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+h5,h4,p{
+    font-family: 'Open Sans', sans-serif;
+}
